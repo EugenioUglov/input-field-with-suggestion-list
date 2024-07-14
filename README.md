@@ -1,5 +1,8 @@
 # Input field with suggestion list
+<p align="center">
 ![Input field with suggestions](https://i.ibb.co/HhzDLc8/Input-field-with-suggestions.png)
+</p>
+
 ## Usage
 * Import
 ```js
