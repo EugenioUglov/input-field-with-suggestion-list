@@ -1,7 +1,7 @@
 # Input field with suggestion list
 
 ## Usage
-* Сomponent import
+* Сomponent import<br>
 ```import InputFieldWithSuggestionList from './input-field-with-suggestion-list';```
 * Usage
 ```
