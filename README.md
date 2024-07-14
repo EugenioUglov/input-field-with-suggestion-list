@@ -1,5 +1,5 @@
 # Input field with suggestion list
-![Input field with suggestions](https://ibb.co/bbBgj49)
+![Input field with suggestions](https://ibb.co/bbBgj49](https://i.ibb.co/HhzDLc8/Input-field-with-suggestions.png)
 ## Usage
 * Import
 ```js
