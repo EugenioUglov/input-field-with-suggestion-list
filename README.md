@@ -2,10 +2,12 @@
 
 ## Usage
 * Сomponent import<br>
-```import InputFieldWithSuggestionList from './input-field-with-suggestion-list';```
+```js
+import InputFieldWithSuggestionList from './input-field-with-suggestion-list';
+```
 
 * Usage
-```
+```js
 function App() {
   // Set list items for input field.
   const listItems = [
