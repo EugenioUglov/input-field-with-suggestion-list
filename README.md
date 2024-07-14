@@ -3,6 +3,7 @@
 ## Usage
 * Сomponent import<br>
 ```import InputFieldWithSuggestionList from './input-field-with-suggestion-list';```
+
 * Usage
 ```
   // Set list items for input field.
