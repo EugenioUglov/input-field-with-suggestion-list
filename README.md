@@ -1,12 +1,12 @@
 # Input field with suggestion list
 
 ## Usage
-* Сomponent import<br>
+* Import
 ```js
 import InputFieldWithSuggestionList from './input-field-with-suggestion-list';
 ```
 
-* Usage
+* Render
 ```js
 function App() {
   // Set list items for input field.
