@@ -6,6 +6,7 @@
 
 * Usage
 ```
+function App() {
   // Set list items for input field.
   const listItems = [
     {
@@ -28,5 +29,11 @@
     }
   ];
 
-  <InputFieldWithSuggestionList listItems={listItems} />
+  // Render component.
+  return (
+    <InputFieldWithSuggestionList listItems={listItems} />
+  );
+}
+
+export default App;
 ```
