@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './inputFieldWithSuggestionList.css';
 import InputFieldWithSuggestionList from './inputFieldWithSuggestionList.ts';
 import SearcherByTags from './searcherByTags.js';
-import  ItemList from './itemList.js';
+import  ItemList from './itemList.ts';
 import { useState, useEffect, useRef } from 'react';
 
 function InputFieldWithSuggestionListComponent({listItems}) {

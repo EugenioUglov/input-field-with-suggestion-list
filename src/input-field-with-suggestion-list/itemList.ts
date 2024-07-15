@@ -1,10 +1,20 @@
+// @ts-nocheck
+
+interface ListItemType {
+    title: string, 
+    clickHandler: () => void, 
+    description: string, 
+    tags: string[], 
+    icon: string
+};
+
 export default class ItemList {
-    #listItemByTitle = {};
-    #itemListTitlesByTag = {};
+    #listItemByTitle = {} as {title: ListItemType};
+    #itemListTitlesByTag = {} as {tag: string[]};
 
     
     add({title, clickHandler, description, tags, icon}) {
-        const listItem = {
+        const listItem: ListItemType = {
             title: title,
             clickHandler: clickHandler,
             description: description,
