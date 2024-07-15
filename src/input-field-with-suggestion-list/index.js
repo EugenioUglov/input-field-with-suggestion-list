@@ -114,7 +114,7 @@ function InputFieldWithSuggestionListComponent({listItems}) {
         type="text" 
         id="inputFieldWithSuggestions" 
         placeholder="Type here to search..." 
-        autocomplete="off"
+        autoComplete="off"
         ref={inputFieldRef}
         onClick = {(e) => displayItemListByUserPhrase(e.target.value)}
         onFocus = {(e) => displayItemListByUserPhrase(e.target.value)}
