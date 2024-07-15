@@ -1,10 +1,10 @@
 # Input field with suggestion list
 ![Input field with suggestions](https://i.ibb.co/HhzDLc8/Input-field-with-suggestions.png)
 
+## Usage
 Copy the folder /src
 /input-field-with-suggestion-list to your project
 
-## Usage
 * Import
 ```js
 import InputFieldWithSuggestionList from './input-field-with-suggestion-list';
