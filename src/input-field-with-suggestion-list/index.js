@@ -5,7 +5,7 @@ import SearcherByTags from './searcherByTags.js';
 import  ItemList from './itemList.ts';
 import { useState, useEffect, useRef } from 'react';
 
-function InputFieldWithSuggestionListComponent({listItems}) {
+function InputFieldWithSuggestionListComponent({listItems, displaySetting = {content: true, tags: true}}) {
   const inputFieldWithSuggestions = new InputFieldWithSuggestionList();
   const itemList = new ItemList();
   const searcherByTags = new SearcherByTags();
@@ -78,8 +78,9 @@ function InputFieldWithSuggestionListComponent({listItems}) {
                 className="list-item"
                 style={{
                     display: 'flex',
-                    padding: 0,
-                    height:'50px',
+                    padding: '10px',
+                    // height:'50px',
+                    height: 'auto',
                     alignItems:'center',
                     cursor: 'pointer'
                 }}
@@ -91,7 +92,11 @@ function InputFieldWithSuggestionListComponent({listItems}) {
                     width='50px'
                     style={{padding: '5px'}}>
                 </img>
-                <span style={{marginLeft: '5px'}}>{listItem.title}</span>
+                <span style={{marginLeft: '5px'}}><h4>{listItem.title}</h4>
+                {displaySetting.content && <div style={{fontSize: '15px'}}>{listItem.description}</div>}
+                {displaySetting.tags &&
+                <div style={{marginTop: '5px', color: 'gray', fontSize: '12px'}}>Tags: {listItem.tags.map((element) => element+', ')}</div>}
+                </span>
             </li>
         );
       }

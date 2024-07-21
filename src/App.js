@@ -73,7 +73,7 @@ function App() {
   }
 
   return (
-    <InputFieldWithSuggestionList listItems={listItems} />
+    <InputFieldWithSuggestionList listItems={listItems} displaySetting={{content: true, tags: true}} />
   );
 }
 
