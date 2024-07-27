@@ -1,4 +1,4 @@
-type ListItemType = {
+interface ListItemType {
     title: string, 
     clickHandler: () => void, 
     description: string, 
