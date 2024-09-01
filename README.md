@@ -1,5 +1,9 @@
 # Input field with suggestion list
-![Input field with suggestions](https://i.ibb.co/HhzDLc8/Input-field-with-suggestions.png)
+![Input field with suggestions](https://i.ibb.co/HhzDLc8/Input-field-with-suggestions.png)<br />
+
+[Watch the video](https://youtu.be/cpjbdSYuV6g)<br />
+[![Watch the video](https://img.youtube.com/vi/cpjbdSYuV6g/hqdefault.jpg)](https://www.youtube.com/embed/cpjbdSYuV6g)<br />
+
 
 ## Usage
 Copy the folder /src
